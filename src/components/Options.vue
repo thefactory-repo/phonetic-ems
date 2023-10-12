@@ -38,7 +38,7 @@ import { RouterLink } from "vue-router";
       </div>
 
       <div style="display: flex">
-        <div class="fill-card fill-card-2">
+         <RouterLink :to="{name: 'about-us'}" class="fill-card fill-card-2">
           <span class="fill-card-2-text"
             >О технологии и компании Phonetic
             <svg
@@ -58,7 +58,8 @@ import { RouterLink } from "vue-router";
               />
             </svg>
           </span>
-        </div>
+        </RouterLink>
+
 
         <RouterLink :to="{ name: 'calculations' }">
           <div class="card-container card-container-2">
@@ -385,7 +386,7 @@ import { RouterLink } from "vue-router";
           </div>
         </div>
       </RouterLink>
-      <div class="fill-card fill-card-2">
+      <RouterLink :to="{ name: 'about-us' }" class="fill-card fill-card-2">
         <span class="fill-card-2-text"
           >О технологии и компании Phonetic
           <svg
@@ -405,7 +406,7 @@ import { RouterLink } from "vue-router";
             />
           </svg>
         </span>
-      </div>
+      </RouterLink>
     </div>
   </div>
 </template>
