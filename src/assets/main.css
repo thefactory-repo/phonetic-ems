@@ -1,0 +1,51 @@
+@import "./base.css";
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+  padding-top: 40px;
+}
+@media screen and (min-width: 914px) and (max-width: 1920px) and (orientation: landscape) {
+  #app {
+    padding-top: 20px;
+  }
+}
+
+body {
+  font-family: "Helvetica";
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+h1 {
+  font-family: "MakroXM";
+}
+#yellowTitle {
+  color: rgba(248, 241, 23, 1);
+}
+@font-face {
+  font-family: "MakroXM";
+  src: url("./fonts/MakroXM-Bold.woff") format("woff");
+  src: url("./fonts/MakroXM-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url();
+}
+
+button,
+input {
+  background: none;
+  border: 0;
+}
+button {
+  cursor: pointer;
+}
+
+body .modal-open {
+  overflow: hidden;
+}

@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On RewriteBase /phonetic-ems.dev.ui.thefactory.kz RewriteRule
+  ^phonetic-ems.dev.ui.thefactory.kz/index\.html$ - [L] RewriteCond
+  %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteRule .
+  /phonetic-ems.dev.ui.thefactory.kz/index.html [L]
+</IfModule>
