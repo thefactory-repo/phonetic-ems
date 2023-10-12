@@ -32,7 +32,7 @@
     </div>
 
     <div class="about-us__row-2">
-        <iframe class="about-us__frame" src="https://phonetic.thefactory.kz/simple/page.html"/>
+      <iframe class="about-us__frame" src="https://phonetic.thefactory.kz/simple/page.html"/>
     </div>
   </div>
 </template>
@@ -48,8 +48,6 @@
   &__row-2 {
     flex-grow: 1;
   }
-
-  &__frame-wrap {}
 
   &__frame {
     width: 100%;
